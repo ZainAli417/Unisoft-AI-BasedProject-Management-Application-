@@ -20,7 +20,6 @@ class AppColors2 {
       foregroundColor: Colors.grey[600],
     ),
     colorScheme: const ColorScheme.light(),
-    backgroundColor: bgColor,
     textTheme: TextTheme(
       displayMedium: TextStyle(
         color: Colors.blueGrey[800],
