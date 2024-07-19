@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "139692801098",
+    "firebase_url": "https://unisoft-tmp-default-rtdb.firebaseio.com",
+    "project_id": "unisoft-tmp",
+    "storage_bucket": "unisoft-tmp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139692801098:android:57bb1f5c93776e15fc3ab3",
+        "android_client_info": {
+          "package_name": "com.example.unisoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139692801098-47mmpljmhq4bc372q077a9t1mjcnvols.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unisoft",
+            "certificate_hash": "846ddea90b76c884b0fd28411c1b750b306eb8e1"
+          }
+        },
+        {
+          "client_id": "139692801098-mhsco1kc8341ntr2s3t1vuq7uut20sp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmBQavT4adpoEvI3aEAVxDo5cQYbNLvn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139692801098-mhsco1kc8341ntr2s3t1vuq7uut20sp6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "139692801098-v6053jgsl2rp5qi0q7s86cm2hhpj39qk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.unisoft"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color pub get
+
+## exception
+
+PathExistsException: PathExistsException: Cannot create link, path = '/home/zanonymous/Downloads/PlanToDo-main/linux/flutter/ephemeral/.plugin_symlinks/awesome_notifications' (OS Error: File exists, errno = 17)
+
+```
+#0      _Link.throwIfError (dart:io/link.dart:339:7)
+#1      _Link.createSync (dart:io/link.dart:267:5)
+#2      ForwardingLink.createSync (package:file/src/forwarding/forwarding_link.dart:20:16)
+#3      ForwardingLink.createSync (package:file/src/forwarding/forwarding_link.dart:20:16)
+#4      _createPlatformPluginSymlinks (package:flutter_tools/src/flutter_plugins.dart:1090:12)
+#5      createPluginSymlinks (package:flutter_tools/src/flutter_plugins.dart:1019:5)
+#6      refreshPluginsList (package:flutter_tools/src/flutter_plugins.dart:1122:5)
+<asynchronous suspension>
+#7      FlutterProject.ensureReadyForPlatformSpecificTooling (package:flutter_tools/src/project.dart:369:5)
+<asynchronous suspension>
+#8      PackagesGetCommand.runCommand (package:flutter_tools/src/commands/packages.dart:382:7)
+<asynchronous suspension>
+#9      FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1389:27)
+<asynchronous suspension>
+#10     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#11     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#12     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:355:9)
+<asynchronous suspension>
+#13     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#14     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:295:5)
+<asynchronous suspension>
+#15     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:119:9)
+<asynchronous suspension>
+#16     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:153:19)
+<asynchronous suspension>
+#17     main (package:flutter_tools/executable.dart:90:3)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.19.4, on Kali GNU/Linux Rolling 6.6.9-amd64, locale en_US.UTF-8)
+    • Flutter version 3.19.4 on channel stable at /root/snap/flutter/common/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 68bfaea224 (3 days ago), 2024-03-20 15:36:31 -0700
+    • Engine revision a5c24f538d
+    • Dart version 3.3.2
+    • DevTools version 2.31.1
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    • Android SDK at /root/Android/Sdk/
+    • Platform android-34, build-tools 34.0.0
+    • ANDROID_HOME = /root/Android/Sdk
+    • Java binary at: /home/zanonymous/Downloads/android-studio/jbr/bin/java
+    • Java version OpenJDK Runtime Environment (build 17.0.9+0-17.0.9b1087.7-11185874)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✓] Linux toolchain - develop for Linux desktop
+    • clang version 10.0.0-4ubuntu1
+    • cmake version 3.16.3
+    • ninja version 1.10.0
+    • pkg-config version 0.29.1
+
+[✓] Android Studio (version 2023.2)
+    • Android Studio at /home/zanonymous/Downloads/android-studio
+    • Flutter plugin version 78.4.1
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.9+0-17.0.9b1087.7-11185874)
+
+[✓] Connected device (3 available)
+    • M2101K9AG (mobile) • 8cf932c7 • android-arm64  • Android 13 (API 33)
+    • Linux (desktop)    • linux    • linux-x64      • Kali GNU/Linux Rolling 6.6.9-amd64
+    • Chrome (web)       • chrome   • web-javascript • Google Chrome 123.0.6312.58
+
+[✓] Network resources
+    • All expected network resources are available.
+
+• No issues found!
+```

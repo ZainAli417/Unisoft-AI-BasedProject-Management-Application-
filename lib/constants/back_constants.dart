@@ -1,0 +1,43 @@
+const String fontFamilyK = "fontFamily";
+const String iconK = "iconCodePoint";
+const String colorK = "color";
+const String nameK = "name";
+const String managerIdK = "managerId";
+const String endDateK = "endDate";
+const String startDateK = "startDate";
+const String idK = "id";
+const String createdAtK = "createdAt";
+const String updatedAtK = "updatedAt";
+const String statusIdK = "statusId";
+const String descriptionK = "description";
+const String importanceK = "importance";
+const String userIdK = "userId";
+const String teamIdK = "teamId";
+const String memberIdK = "memberId";
+const String projectIdK = "projectId";
+const String folderIdK = "folderId";
+const String assignedToK = "assignedTo";
+const String categoryIdK = "categoryId";
+const String userNameK = "userName";
+const String taskFatherIdK = "taskFatherId";
+const String mainTaskIdK = "mainTaskId";
+const String imageUrlK = "imageUrl";
+const String bioK = "bio";
+const String emailK = "email";
+const String tokenFcmK = "tokenFcm";
+//TODO when changing project change theses two
+const firebaseProjectIdK = "unisoft-tmp";
+const String serverKeyK =
+    "AAAAIIZW_Eo:APA91bEcTApuhAEneIoZCxd5yWF7_STCRV1Pv6XEBIUjw2SKc7DKwW3bQAFE96F5FlM0R2L8bjgud1d06j_UCpLROC4CnyHqGRGeO28Zq8UNPCA2Rg6GnXA3xdtfmiQ_FjTKx--BLP8Q";
+String soundsource = "task_completed";
+String key = "key";
+String label = "label";
+String actionType = "actionType";
+String requireInputText = "requireInputText";
+String autoDismissible = "autoDismissible";
+String userTaskNotificationTitle = "the task has started";
+
+const String statusDone = "Done";
+const String statusNotDone = "not Done";
+const String statusDoing = "Doing";
+const String statusNotStarted = "not started";
